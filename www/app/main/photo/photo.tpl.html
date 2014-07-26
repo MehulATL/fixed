@@ -2,16 +2,19 @@
 
   <ion-content has-tabs="true" has-header="true">
 
-    <br>
-    <br>
-    <br>
-    <br>
-
     <div class="padding">
-      <button class="button button-block button-positive" ng-click="takePhoto()">
-        Take Photo
+      <button ng-click='takePhoto("CAMERA")' class="button button-full icon-left ion-android-camera button-dark">
+        Take a Photo
+      </button>
+
+      <button ng-click='takePhoto("PHOTOLIBRARY")'class="button button-full icon-left ion-android-image button-dark">
+        Upload a Photo
       </button>
     </div>
+
+    <br>
+
+    <img id="preview">
 
   </ion-content>
 

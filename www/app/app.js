@@ -1,5 +1,6 @@
 angular.module('fixed', [
   'ionic',
+  'ngCordova',
   'fixed.login',
   'fixed.main'
 ])
@@ -12,7 +13,7 @@ angular.module('fixed', [
     templateUrl: 'app/app.tpl.html',
   });
 
-  $urlRouterProvider.otherwise('/main/photo');
+  $urlRouterProvider.otherwise('/login');
 
 })
 
