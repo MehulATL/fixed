@@ -12,7 +12,7 @@ angular.module('fixed', [
     templateUrl: 'app/app.tpl.html',
   });
 
-  $urlRouterProvider.otherwise('/login');
+  $urlRouterProvider.otherwise('/main/photo');
 
 })
 
