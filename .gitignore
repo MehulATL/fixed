@@ -1,0 +1,7 @@
+.DS_Store
+*.keystore
+/platforms
+node_modules
+
+www/js/**
+www/lib/bower_components
