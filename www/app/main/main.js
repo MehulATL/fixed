@@ -1,4 +1,6 @@
-angular.module('fixed.main', [])
+angular.module('fixed.main', [
+  'fixed.main.photo'
+])
 
 .config(function($stateProvider) {
   $stateProvider
