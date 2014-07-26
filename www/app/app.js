@@ -1,5 +1,7 @@
 angular.module('fixed', [
-  'ionic'
+  'ionic',
+  'fixed.login',
+  'fixed.main'
 ])
 
 .config(function($stateProvider, $urlRouterProvider) {
