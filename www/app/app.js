@@ -1,4 +1,6 @@
-angular.module('fixed', ['ionic'])
+angular.module('fixed', [
+  'ionic'
+])
 
 .config(function($stateProvider, $urlRouterProvider) {
   $stateProvider
@@ -8,7 +10,7 @@ angular.module('fixed', ['ionic'])
     templateUrl: 'app/app.tpl.html',
   });
 
-  $urlRouterProvider.otherwise('/');
+  $urlRouterProvider.otherwise('/login');
 
 })
 
